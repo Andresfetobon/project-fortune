@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Lato:wght@700;900&family=Poppins:wght@400;500;600&family=Roboto:wght@100&family=Unbounded:wght@200&display=swap');
+
+.app {
+    background-image: url('../public/images/fondo1.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.app__title{
+    position: absolute;
+    top: 3em;
+    font-size: 2.3rem;
+}
+
+.card {
+    padding: 1.5em;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    line-height: 1.8;
+    box-shadow: 0.3em 0.3em 1em #0006;
+    font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 533px)  {
+    .app__btn {
+       margin-top: 50px;
+    }
+}
